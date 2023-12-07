@@ -1,0 +1,134 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+	{
+		"key": "shift+alt+i",
+		"command": "editor.action.insertCursorAtEndOfEachLineSelected",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+alt+i",
+		"command": "-editor.action.insertCursorAtEndOfEachLineSelected",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+alt+l",
+		"command": "cursorEnd",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "alt+j",
+		"command": "cursorLeft",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "alt+l",
+		"command": "cursorRight",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "alt+i",
+		"command": "cursorUp",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "alt+k",
+		"command": "cursorDown",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "ctrl+shift+alt+j",
+		"command": "cursorWordLeft",
+		"when": "textInputFocus && !accessibilityModeEnabled"
+	},
+	{
+		"key": "ctrl+shift+alt+l",
+		"command": "cursorWordEndRight",
+		"when": "textInputFocus && !accessibilityModeEnabled"
+	},
+	{
+		"key": "ctrl+right",
+		"command": "-cursorWordEndRight",
+		"when": "textInputFocus && !accessibilityModeEnabled"
+	},
+	{
+		"key": "ctrl+right",
+		"command": "cursorWordRight"
+	},
+	{
+		"key": "ctrl+shift+right",
+		"command": "cursorWordRightSelect"
+	},
+	{
+		"key": "ctrl+j",
+		"command": "editor.action.joinLines"
+	},
+	{
+		"key": "shift+alt+j",
+		"command": "cursorWordLeftSelect",
+		"when": "textInputFocus && !accessibilityModeEnabled"
+	},
+	{
+		"key": "shift+alt+l",
+		"command": "cursorWordRightSelect"
+	},
+	{
+		"key": "shift+alt+k",
+		"command": "cursorDownSelect",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "ctrl+shift+down",
+		"command": "-cursorDownSelect",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "shift+alt+i",
+		"command": "cursorUpSelect",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "ctrl+shift+up",
+		"command": "-cursorUpSelect",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "alt+i",
+		"command": "selectPrevSuggestion",
+		"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+	},
+	{
+		"key": "alt+i",
+		"command": "cursorUp",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "alt+i",
+		"command": "list.focusUp",
+		"when": "listFocus && !inputFocus"
+	},
+	{
+		"key": "ctrl+enter",
+		"command": "-github.copilot.generate",
+		"when": "editorTextFocus && github.copilot.activated"
+	},
+	{
+		"key": "alt+i",
+		"command": "selectPrevSuggestion",
+		"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+	},
+	{
+		"key": "alt+k",
+		"command": "selectNextSuggestion",
+		"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+	},
+	{
+		"key": "down",
+		"command": "-selectNextSuggestion",
+		"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+	},
+	{
+		"key": "down",
+		"command": "selectNextSuggestion",
+		"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+	}
+]
